@@ -10,7 +10,7 @@
   <Project/>
   <Overview>RStudio docker created by https://github.com/rocker-org/rocker and prepped for unRAID.</Overview>
   <Category/>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:8787]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxdream/unRAID-Docker-Templates/master/RStudio/r-studio.png</Icon>
   <ExtraParams/>
