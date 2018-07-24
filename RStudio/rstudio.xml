@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RStudio</Name>
+  <Repository>rocker/rstudio</Repository>
+  <Registry>https://hub.docker.com/r/rocker/rstudio/~/dockerfile/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/rocker/rstudio/</Support>
+  <Project/>
+  <Overview>RStudio docker created by https://github.com/rocker-org/rocker and preped for unRAID.</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxdream/unRAID-Docker-Templates/master/RStudio/r-studio.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <DateInstalled>1532401303</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>RStudio docker created by https://github.com/rocker-org/rocker and preped for unRAID.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8787</HostPort>
+        <ContainerPort>8787</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/docker/rstudio</HostDir>
+      <ContainerDir>/home</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>rstudio</Value>
+      <Name>USER</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>rstudio</Value>
+      <Name>PASSWORD</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Main Port" Target="8787" Default="" Mode="tcp" Description="Container Port: 8787" Type="Port" Display="always" Required="false" Mask="false">8787</Config>
+  <Config Name="Username" Target="USER" Default="" Mode="" Description="Main username" Type="Variable" Display="always" Required="false" Mask="false">rstudio</Config>
+  <Config Name="Password" Target="PASSWORD" Default="" Mode="" Description="Primary user password" Type="Variable" Display="always" Required="false" Mask="false">rstudio</Config>
+  <Config Name="Home directory" Target="/home" Default="" Mode="rw" Description="Directory to store user files." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/docker/rstudio</Config>
+</Container>
