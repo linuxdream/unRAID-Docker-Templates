@@ -8,7 +8,7 @@
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/rocker/rstudio/</Support>
   <Project/>
-  <Overview>RStudio docker created by https://github.com/rocker-org/rocker and preped for unRAID.</Overview>
+  <Overview>RStudio docker created by https://github.com/rocker-org/rocker and prepped for unRAID.</Overview>
   <Category/>
   <WebUI/>
   <TemplateURL/>
@@ -18,7 +18,7 @@
   <DateInstalled>1532401303</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>RStudio docker created by https://github.com/rocker-org/rocker and preped for unRAID.</Description>
+  <Description>RStudio docker created by https://github.com/rocker-org/rocker and prepped for unRAID.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
